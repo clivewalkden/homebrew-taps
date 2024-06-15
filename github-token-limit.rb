@@ -5,20 +5,20 @@
 class GithubTokenLimit < Formula
   desc "This executable returns the number of requests remaining for the GitHub API. If there are no tokens left it gives the reset time."
   homepage "https://github.com/clivewalkden/homebrew-github-token-limit"
-  version "1.1.2"
+  version "1.2.0"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.1.2/go-github-token-limit_1.1.2_darwin_arm64.tar.gz"
-      sha256 "1c3baef848402c74d8f1f1074b85c6ab71d7e6e649725406aa21eeef7477284d"
+    if Hardware::CPU.intel?
+      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.2.0/go-github-token-limit_1.2.0_darwin_amd64.tar.gz"
+      sha256 "778538c8ae3f0216a5461eeed46edcd4eb8fb7bddc60394201c11c769208df34"
 
       def install
         bin.install "github-token-limit"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.1.2/go-github-token-limit_1.1.2_darwin_amd64.tar.gz"
-      sha256 "52df1755d8ed66d333b990891bba19dd29c1fd1accee7f5d0d8a8bb4c9ade2d1"
+    if Hardware::CPU.arm?
+      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.2.0/go-github-token-limit_1.2.0_darwin_arm64.tar.gz"
+      sha256 "efd7bca9ab5844f7350bbe63fb0f48738db50b92703cda0846fe01344f22a3a3"
 
       def install
         bin.install "github-token-limit"
@@ -28,16 +28,16 @@ class GithubTokenLimit < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.1.2/go-github-token-limit_1.1.2_linux_amd64.tar.gz"
-      sha256 "d6b45a4e83b534c64f03f52b96d7ba1340968203167bd046d581a463eac060bc"
+      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.2.0/go-github-token-limit_1.2.0_linux_amd64.tar.gz"
+      sha256 "1afa0f37b2269f5a374ca708f0f84d2a30bf741ee07561e8040c4991f2620ff9"
 
       def install
         bin.install "github-token-limit"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.1.2/go-github-token-limit_1.1.2_linux_arm64.tar.gz"
-      sha256 "8c7808c8ab98e68ab9b0c459148be139a4f8a8e7567357cda4fb59b635d4afb5"
+      url "https://github.com/clivewalkden/go-github-token-limit/releases/download/v1.2.0/go-github-token-limit_1.2.0_linux_arm64.tar.gz"
+      sha256 "7881e82b495a6cd66ae7af8d72efb70312370b966c8f02edf555b5b97bb80d7b"
 
       def install
         bin.install "github-token-limit"
