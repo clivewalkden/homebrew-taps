@@ -23,4 +23,4 @@ Repo: [Go GitHub Token Limit](https://github.com/clivewalkden/go-github-token-li
 
 This executable automatically cleans up old files outside the given compliance timeframes.
 
-Repo: [Go GitHub Token Limit](https://github.com/clivewalkden/go-wasabi-cleanup)
+Repo: [Wasabi Cleanup](https://github.com/clivewalkden/go-wasabi-cleanup)
