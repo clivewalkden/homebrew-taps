@@ -5,20 +5,20 @@
 class Anvil < Formula
   desc "This executable automatically cleans up old files outside the given compliance timeframes."
   homepage "https://github.com/clivewalkden/homebrew-taps"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/clivewalkden/anvil/releases/download/v1.0.0/anvil_1.0.0_darwin_amd64.tar.gz"
-      sha256 "269501a8bd0246eb753975a893c1977bf5fcfd883ad3627bdb279ff657b8d7d1"
+      url "https://github.com/clivewalkden/anvil/releases/download/v1.1.0/anvil_1.1.0_darwin_amd64.tar.gz"
+      sha256 "9f862dcd5db2b5ba7cfd5719ac37de562021d75f40de08b8ba7ab989d08186a6"
 
       def install
         bin.install "anvil"
       end
     end
     on_arm do
-      url "https://github.com/clivewalkden/anvil/releases/download/v1.0.0/anvil_1.0.0_darwin_arm64.tar.gz"
-      sha256 "30802f29ea548c704fdd23d7d4699d4554e3678b7f48a23366b531f7ac4cac48"
+      url "https://github.com/clivewalkden/anvil/releases/download/v1.1.0/anvil_1.1.0_darwin_arm64.tar.gz"
+      sha256 "c8705d8e95d143e39c041d8850cf771591246cfd88651a87f78d1fb7d472171d"
 
       def install
         bin.install "anvil"
@@ -29,8 +29,8 @@ class Anvil < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/clivewalkden/anvil/releases/download/v1.0.0/anvil_1.0.0_linux_amd64.tar.gz"
-        sha256 "a3d9731f49eb73c189cd11335a50c847fb75944f2975845953843a39ef500062"
+        url "https://github.com/clivewalkden/anvil/releases/download/v1.1.0/anvil_1.1.0_linux_amd64.tar.gz"
+        sha256 "6c24130776cfb63ea91202f6789c145946871cef1819e8a3cebcff83943c5d29"
 
         def install
           bin.install "anvil"
@@ -39,8 +39,8 @@ class Anvil < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/clivewalkden/anvil/releases/download/v1.0.0/anvil_1.0.0_linux_arm64.tar.gz"
-        sha256 "18df9bdfb43ef7529c9ffa4b6d2ba513769b9582d2247b0b2a6370cfa0b96f65"
+        url "https://github.com/clivewalkden/anvil/releases/download/v1.1.0/anvil_1.1.0_linux_arm64.tar.gz"
+        sha256 "8edbdbe69af4106b29abfeec54d2a07b63bee2ca9c024f3a3ab03f87d298b171"
 
         def install
           bin.install "anvil"
