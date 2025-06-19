@@ -28,11 +28,11 @@ Repo: [Wasabi Cleanup](https://github.com/clivewalkden/go-wasabi-cleanup)
 
 ## Anvil
 
-![GitHub License](https://img.shields.io/github/license/clivewalkden/anvil)
-![GitHub Release](https://img.shields.io/github/v/release/clivewalkden/anvil)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/clivewalkden/anvil/total)
+![GitHub License](https://img.shields.io/github/license/clivewalkden/anvil-cli)
+![GitHub Release](https://img.shields.io/github/v/release/clivewalkden/anvil-cli)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/clivewalkden/anvil-cli/total)
 
 
 Magento 2 local docker instance helper to control starting, stopping, making sure files are up to date etc.
 
-Repo: [Anvil](https://github.com/clivewalkden/anvil)
+Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
