@@ -2,7 +2,7 @@
 cask "anvil" do
   desc "This executable automatically cleans up old files outside the given compliance timeframes."
   homepage "https://github.com/clivewalkden/homebrew-taps"
-  version "1.2.1"
+  version "1.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "anvil" do
 
   on_macos do
     on_intel do
-      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.2.1/anvil-cli_1.2.1_darwin_amd64.tar.gz"
-      sha256 "3ff17888fc26c1f1c8341120ff2555e34c3d13c176f93ad37146f486b04aff19"
+      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.3.0/anvil-cli_1.3.0_darwin_amd64.tar.gz"
+      sha256 "081c93d218814546c67227fb087ada56f7ce2fa399d5328bf35897ea48a5a369"
     end
     on_arm do
-      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.2.1/anvil-cli_1.2.1_darwin_arm64.tar.gz"
-      sha256 "82a4ac84f7c12ab43cbcf499134e1d08484d91a37c5235d546817b7d7249d03f"
+      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.3.0/anvil-cli_1.3.0_darwin_arm64.tar.gz"
+      sha256 "d64cd2466bd022a4e15120814278f315fadea4b3451349e7d88dcf3ba27b8976"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.2.1/anvil-cli_1.2.1_linux_amd64.tar.gz"
-      sha256 "97dd16445e546d5a5405034c7b635fc572cb8be78a3feb53445b6e6bfc150b38"
+      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.3.0/anvil-cli_1.3.0_linux_amd64.tar.gz"
+      sha256 "61787d79521c891117d7b6018aaa915ccad3b18953fa3e73321fc64966e44aea"
     end
     on_arm do
-      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.2.1/anvil-cli_1.2.1_linux_arm64.tar.gz"
-      sha256 "659c90e9e0d4f1e7b1c9ff6768368dbeabf2ce92123fdaf22e4d40849b4a1d7d"
+      url "https://github.com/clivewalkden/anvil-cli/releases/download/v1.3.0/anvil-cli_1.3.0_linux_arm64.tar.gz"
+      sha256 "dad05d99390e5b0746c40eb1665e99e1139d1ac26373969771bee92cf750f862"
     end
   end
 
