@@ -36,3 +36,15 @@ Repo: [Wasabi Cleanup](https://github.com/clivewalkden/go-wasabi-cleanup)
 Magento 2 local docker instance helper to control starting, stopping, making sure files are up to date etc.
 
 Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
+
+
+## Flux
+
+![GitHub License](https://img.shields.io/github/license/clivewalkden/flux-cli)
+![GitHub Release](https://img.shields.io/github/v/release/clivewalkden/flux-cli)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/clivewalkden/flux-cli/total)
+
+
+Magento 2 ece-patch `.magento.env.yaml` file checker and updater.
+
+Repo: [Anvil](https://github.com/clivewalkden/flux-cli)
