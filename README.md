@@ -47,4 +47,4 @@ Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
 
 Magento 2 ece-patch `.magento.env.yaml` file checker and updater.
 
-Repo: [Anvil](https://github.com/clivewalkden/flux-cli)
+Repo: [Flux](https://github.com/clivewalkden/flux-cli)
