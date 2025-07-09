@@ -2,7 +2,7 @@
 cask "flux" do
   desc "This executable automatically cleans up old files outside the given compliance timeframes."
   homepage "https://github.com/clivewalkden/homebrew-taps"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "flux" do
 
   on_macos do
     on_intel do
-      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.1.0/flux-cli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "c90106a5d07400b7663eab64f40bd36fbce0d6b5c065ffbe7844294765e30d5a"
+      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.2.0/flux-cli_0.2.0_darwin_amd64.tar.gz"
+      sha256 "520ee72c2d6e6a47ced8be36cba9b25cb8cf864f5d88281f75ee7e554831b73d"
     end
     on_arm do
-      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.1.0/flux-cli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c977e05deafa3db4e37c68da4e4a811648916591aedcfa200f971d918708033d"
+      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.2.0/flux-cli_0.2.0_darwin_arm64.tar.gz"
+      sha256 "725a9e20b668459e2f75c176e36bcac22f16485a1e34c7fcb9cf2efc01d7e64c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.1.0/flux-cli_0.1.0_linux_amd64.tar.gz"
-      sha256 "4a14adc70e3f60b533fa85cba236cb7325e647982543563e15acacb61bad565e"
+      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.2.0/flux-cli_0.2.0_linux_amd64.tar.gz"
+      sha256 "08a18503e94462ba83b7fe67df0580b406b0e1ff160e8ab613246f921a0b4c9c"
     end
     on_arm do
-      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.1.0/flux-cli_0.1.0_linux_arm64.tar.gz"
-      sha256 "6e7d6528bdcf869fc68779849c463fc5646bd2eba3681407c9b509a17408d333"
+      url "https://github.com/clivewalkden/flux-cli/releases/download/v0.2.0/flux-cli_0.2.0_linux_arm64.tar.gz"
+      sha256 "8792b37ace70edce1d804b263ac51ad4b664b4656e5c008474653c02078694de"
     end
   end
 
