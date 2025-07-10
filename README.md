@@ -2,6 +2,12 @@
 
 Here are all my Homebrew taps for applications I've created.
 
+To use these applications, you need to add the tap the repository.
+
+```sh
+brew tap clivewalkden/taps
+```
+
 ## Github Token Limit
 
 ![GitHub License](https://img.shields.io/github/license/clivewalkden/go-github-token-limit)
@@ -10,6 +16,8 @@ Here are all my Homebrew taps for applications I've created.
 
 
 Quickly see the remaining API requests you can make to the GitHub API with a GitHub Personal Access Token or Fine-Grained Access Token.
+
+Install Command: `brew install github-token-limit`
 
 Repo: [Go GitHub Token Limit](https://github.com/clivewalkden/go-github-token-limit)
 
@@ -23,6 +31,8 @@ Repo: [Go GitHub Token Limit](https://github.com/clivewalkden/go-github-token-li
 
 This executable automatically cleans up old files outside the given compliance timeframes.
 
+Install Command: `brew install wasabi-cleanup`
+
 Repo: [Wasabi Cleanup](https://github.com/clivewalkden/go-wasabi-cleanup)
 
 
@@ -35,6 +45,8 @@ Repo: [Wasabi Cleanup](https://github.com/clivewalkden/go-wasabi-cleanup)
 
 Magento 2 local docker instance helper to control starting, stopping, making sure files are up to date etc.
 
+Install Command: `brew install --cask anvil`
+
 Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
 
 
@@ -46,5 +58,7 @@ Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
 
 
 Magento 2 ece-patch `.magento.env.yaml` file checker and updater.
+
+Install Command: `brew install clivewalkden/taps/flux`
 
 Repo: [Flux](https://github.com/clivewalkden/flux-cli)
