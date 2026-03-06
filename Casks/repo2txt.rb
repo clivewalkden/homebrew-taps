@@ -3,7 +3,7 @@ cask "repo2txt" do
   name "repo2txt"
   desc "Convert a repository into a single text document for LLM consumption."
   homepage "https://github.com/clivewalkden/homebrew-taps"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "repo2txt" do
   on_macos do
     on_intel do
       url "https://github.com/clivewalkden/repo2txt-cli/releases/download/v#{version}/repo2txt-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "bd7bec14c1f7108fe79add040be2e7b408a21f19dd792236f045f6dc3350ad49"
+      sha256 "7aed0f59660e11048d0cbfae2aed88633aff80b36c1b95f4aa5339c87fa42d38"
     end
     on_arm do
       url "https://github.com/clivewalkden/repo2txt-cli/releases/download/v#{version}/repo2txt-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "1a47b16e0785a6287fa5e829f836438b6fa891e3896eaaacca0b077c724c664e"
+      sha256 "d3978bc6120c38d3ae455fb0d380ac3687141515428acf3aef2f8c6c86bea02f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/clivewalkden/repo2txt-cli/releases/download/v#{version}/repo2txt-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "727146684ee809353c7567872b0cc0287d8528fdc5c56614b9868c3fe661de84"
+      sha256 "2043eadc666d750d3023390492c485a1dde0d7046911ce2009584f4cd61f1532"
     end
     on_arm do
       url "https://github.com/clivewalkden/repo2txt-cli/releases/download/v#{version}/repo2txt-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "2ebf19d37168f2f819e599eb0aa1bbcd0b2848c43e36d19538423d589d33b86c"
+      sha256 "b65fb2db4763e80d82d7a1c6fec658633c8fba2fb999f190b7961c8b9455e535"
     end
   end
 
