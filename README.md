@@ -75,4 +75,4 @@ Convert a repository into a single text document for LLM consumption. `repo2txt`
 
 Install Command: `brew install clivewalkden/taps/repo2txt`
 
-Repo: [Flux](https://github.com/clivewalkden/repo2txt-cli)
+Repo: [repo2txt](https://github.com/clivewalkden/repo2txt-cli)
