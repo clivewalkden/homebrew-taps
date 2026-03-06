@@ -62,3 +62,17 @@ Magento 2 ece-patch `.magento.env.yaml` file checker and updater.
 Install Command: `brew install clivewalkden/taps/flux`
 
 Repo: [Flux](https://github.com/clivewalkden/flux-cli)
+
+
+## repo2txt
+
+![GitHub License](https://img.shields.io/github/license/clivewalkden/repo2txt-cli)
+![GitHub Release](https://img.shields.io/github/v/release/clivewalkden/repo2txt-cli)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/clivewalkden/repo2txt-cli/total)
+
+
+Convert a repository into a single text document for LLM consumption. `repo2txt` walks a directory tree, renders a visual directory structure, and concatenates all readable file contents into a single output file.
+
+Install Command: `brew install clivewalkden/taps/repo2txt`
+
+Repo: [Flux](https://github.com/clivewalkden/repo2txt-cli)
