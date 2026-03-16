@@ -3,7 +3,7 @@ cask "anvil" do
   name "anvil"
   desc "Anvil is a CLI tool that manages Magento Docker environments, syncing templates and wrapping docker compose for Magento-specific workflows."
   homepage "https://github.com/clivewalkden/homebrew-taps"
-  version "1.6.4"
+  version "1.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "anvil" do
   on_macos do
     on_intel do
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "3877701947a96a8854ac111c8e93971b84622aa372756959784e52fa8da9a981"
+      sha256 "883533567c8e1376b68c62a7bf8ae71b4c38b49ef3e2cf32283997f987a9e6bb"
     end
     on_arm do
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "76efd5ce4d7a3d9dd7b9a6e9d252ac8c9dbedd66e9e9b4a8e47cbb78a48a670e"
+      sha256 "9060101081ab82a401b2293f566370a5b9a173925ef0c1d4e8209b45943fe608"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "ea38fbb28a6c8aeccb1fef26f3cdfe32095f9d23364b7303bed231360255ce35"
+      sha256 "f0e6464d8c185ef4341c16df50cc116a7ec7cdcf7f55a63d6b8b97184d6de21d"
     end
     on_arm do
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "309b6cc95c0ec9e08dc97d891743f8f11dfc7131ccc3e78ab76929d95cfccdb5"
+      sha256 "27ee8f3c73d22bac46b5d7d32d4e0cad6376003bca4651161be5dc1522936148"
     end
   end
 
