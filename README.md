@@ -73,6 +73,16 @@ Repo: [Flux](https://github.com/clivewalkden/flux-cli)
 
 Convert a repository into a single text document for LLM consumption. `repo2txt` walks a directory tree, renders a visual directory structure, and concatenates all readable file contents into a single output file.
 
-Install Command: `brew install clivewalkden/taps/repo2txt`
 
-Repo: [repo2txt](https://github.com/clivewalkden/repo2txt-cli)
+## Magento Checker
+
+![GitHub License](https://img.shields.io/github/license/clivewalkden/magento-checker-cli)
+![GitHub Release](https://img.shields.io/github/v/release/clivewalkden/magento-checker-cli)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/clivewalkden/magento-checker-cli/total)
+
+
+A command-line tool that verifies a Magento 2 project meets required infrastructure and security criteria. Checks are modular and easy to extend — adding a new check is a matter of implementing one interface and calling `Register()` in an `init()` function.
+
+Install Command: `brew install clivewalkden/taps/magento-checker`
+
+Repo: [magento-checker](https://github.com/clivewalkden/magento-checker-cli)
