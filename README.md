@@ -59,7 +59,7 @@ Repo: [Anvil](https://github.com/clivewalkden/anvil-cli)
 
 Magento 2 ece-patch `.magento.env.yaml` file checker and updater.
 
-Install Command: `brew install clivewalkden/taps/flux`
+Install Command: `brew install --cask flux`
 
 Repo: [Flux](https://github.com/clivewalkden/flux-cli)
 
@@ -73,6 +73,10 @@ Repo: [Flux](https://github.com/clivewalkden/flux-cli)
 
 Convert a repository into a single text document for LLM consumption. `repo2txt` walks a directory tree, renders a visual directory structure, and concatenates all readable file contents into a single output file.
 
+Install Command: `brew install --cask repo2txt`
+
+Repo: [repo2txt](https://github.com/clivewalkden/repo2txt-cli)
+
 
 ## Magento Checker
 
@@ -83,6 +87,6 @@ Convert a repository into a single text document for LLM consumption. `repo2txt`
 
 A command-line tool that verifies a Magento 2 project meets required infrastructure and security criteria. Checks are modular and easy to extend — adding a new check is a matter of implementing one interface and calling `Register()` in an `init()` function.
 
-Install Command: `brew install clivewalkden/taps/magento-checker`
+Install Command: `brew install --cask magento-checker`
 
 Repo: [magento-checker](https://github.com/clivewalkden/magento-checker-cli)
