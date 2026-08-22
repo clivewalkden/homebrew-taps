@@ -4,22 +4,22 @@ cask "anvil" do
 
   on_macos do
     on_intel do
-      sha256 "7487bb91ff497cb34ed6aa2d6a03646a320c53cdf5e2ea7cb4b2a6710f188dfd"
+      sha256 "a4175eac8651d120a22115c463529e08a80f43893f0933aa1547b0115cb18e35"
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0d2a5ac3ae3a90679358e49d0b1950014e28e11d6240c5601d3788cb3f45fd94"
+      sha256 "6e71c9afb2aa908ae29cce129e08bd9bda6239bd59d1a8d5b93cb49028a93b81"
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c3b9defc7a0a6537af3334813c26ab0c63c3b1afc3aa9b75b8d0dcdb2c28583e"
+      sha256 "452131662c270a3bf580844cf0ddac8cd7e49c956a06f1e25119bc829ec73b55"
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0a81aabf037dfc031c0faba696fb009b2ea1a97760538cb5374e3f2e3263bae6"
+      sha256 "56ece1afe816537c173022355cd1b995842e981374795da33b296cbfc8a4b6e8"
       url "https://github.com/clivewalkden/anvil-cli/releases/download/v#{version}/anvil-cli_#{version}_linux_arm64.tar.gz"
     end
   end
