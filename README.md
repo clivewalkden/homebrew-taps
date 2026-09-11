@@ -17,7 +17,7 @@ brew tap clivewalkden/taps
 
 Quickly see the remaining API requests you can make to the GitHub API with a GitHub Personal Access Token or Fine-Grained Access Token.
 
-Install Command: `brew install github-token-limit`
+Install Command: `brew install --cask github-token-limit`
 
 Repo: [Go GitHub Token Limit](https://github.com/clivewalkden/go-github-token-limit)
 
