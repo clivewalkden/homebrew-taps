@@ -1,0 +1,40 @@
+name: Fix deprecated postflight
+
+# GoReleaser still generates the legacy `postflight do` block, which Homebrew now
+# warns about. Rewrite it to `postflight_steps` whenever a cask is pushed.
+# Remove once the source repos emit postflight_steps via `custom_block`.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Casks/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-postflight
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert postflight to postflight_steps
+        run: python3 .github/scripts/fix_postflight.py Casks
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "fix: migrate postflight to postflight_steps"
+          git pull --rebase origin main
+          git push
