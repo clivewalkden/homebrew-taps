@@ -33,9 +33,11 @@ cask "github-token-limit" do
 
   binary "github-token-limit"
 
-  postflight do
-    if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/github-token-limit"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr",
+          args:         ["-dr", "com.apple.quarantine", "{{staged_path}}/github-token-limit"],
+          must_succeed: false
     end
   end
 

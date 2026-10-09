@@ -34,10 +34,11 @@ cask "magento-checker" do
 
   binary "magento-checker"
 
-  postflight do
-    if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
-      # replace 'magento-checker' with the actual binary name
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/magento-checker"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr",
+          args:         ["-dr", "com.apple.quarantine", "{{staged_path}}/magento-checker"],
+          must_succeed: false
     end
   end
 
